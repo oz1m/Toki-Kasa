@@ -9,27 +9,10 @@ Each noun can be turned into a verb using the mood specifier as verb marker. The
 Using "kome" (consumable) you can form the verb "to consume" also used as "to eat": 
 > "Mi **ni kome**" -> "I eat"
 > "Tu **ka kome**?" -> "do you eat ?"
-> "Tu **go kome**" -> "eat" as a order
----
-## Tense 
-There are 3 tenses: 
-- omitted: present
-- **fu**: future 
-- **pa**: past 
+> "**go kome**" -> "eat" as a order
 
-The tense is a marker that you put next to the verb noun: 
-> "Mi ni kome **pa**" -> "I eat in the past" - "I ate"
-> "Mi ni kome **fu**" -> "I eat in the future" - "I will eat"
----
-## Aspects
-There are 2 aspects: 
-- omitted: perfective 
-- **na**: imperfective 
+Imperative mood will always refer to second person.
 
-The aspect marker must be placed after the tense marker: 
-> "Mi ni kome **na**" -> "Im eating"
-> "Mi ni kome fu **na**" -> "I will be eating"
-> "Mi ni kome pa **na**" -> "I was eating"
 ---
 ## Valency
 All verbs expect subject as argument (there is no impersonal verbs). Verbs are divided in 3 type: 
@@ -56,11 +39,11 @@ You can link verbs together to modify mood:
 > "tu **ni nese ni gona**" -> "You **need to go**"
 
 ### Voice modifier
-Normal verbs modify the mood, but there are two particles used to modify the voice: 
+There are two particles used to modify the voice: 
 - **ni kea**: Passive indirect object 
 - **ni toa**: Passive direct object 
 
 Examples: 
-> "patao **ni kea** kome pa bi mi" -> "The duck was eaten by me"
-> "kasaca **ni toa** gona pa bi mi" -> this doesn't have a literal translation in English but it should be something like "The house was go by me"
+> "patao **ni kea** kome bi mi" -> "The duck was eaten by me"
+> "kasaca **ni toa** gone bi mi" -> this doesn't have a literal translation in English but it should be something like "The house was go by me"
 

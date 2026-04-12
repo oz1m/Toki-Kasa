@@ -3,7 +3,7 @@
 ### Things
 #### Substances
 - **guare**: water/liquid
-- **likae**: liquid
+- **rikae**: liquid
 - **sosoe**: solid
 - **gasoe**: gas
 #### Objects
@@ -26,7 +26,7 @@
 - **boru**: mind
 #### Arquitecture
 - **renaga**: brick
-- **sakola**: school
+- **sakora**: school
 - **sareta**: street
 - **kasaca**: house, home 
 - **getera**: gate, door
@@ -35,30 +35,31 @@
 ---
 ### Spatial Entities
 #### Position
+- **cito**: position
 - **soma**: any position
-- **raki**: here
+- **kiro**: here
+- **raki**: no here, somewhere else
 - **rupa**: up
 - **donu**: down
 - **bare**: back
 - **fore**: front
 - **cidari**: left
 - **cikosi**: right
-#### Directions
 - **kini**: in, inside 
 - **kipa**: out, outside
-- **labe**: exit 
-- **tine**: entry
-#### Space/Time
-- **cito**: position
+#### Time
+- **kino**: now
+- **bano**: past
+- **funo**: future
 - **beto**: event
 - **pase**: space
-- **cika**: time
+- **tino**: time
 - **tese**: start. Start as a point in a process or space
 - **gedo**: end. End as a point in a process or space
----
-### Temporal Entities
 - **cikae**: early
 - **cikao**: late
+---
+### Temporal Entities
 #### Time Units
 - **roira**: hour
 - **roimita**: half of hour
@@ -92,18 +93,19 @@
 - **mita**: half
 - **kuti:** small amount, less than half 
 - **nona**: nothing
-- **nani**: more than one but not all (any)
+- **sani**: more than one but not all (any)
 ##### Numeric proportions
 - **toeto**: 1/3
 - **foeto**: 1/4
 - **caeto**: 1/8
 #### Plurals 
 - **sai**: generic plural. More than one
-- **solo**: singular specifier (in case you want to emphasize)
 ---
 ### Natural Entities
 #### Organisms
-- **nimale**: animal
+- **fema**: female 
+- **mare**: male
+- **nimare**: animal
 - **bugi**: insect
 - **bugitaraci**: cockroach
 - **kanao**: dog
@@ -121,8 +123,8 @@
 - **papa**: father
 - **nimana**: uncle/aunt
 - **nisa**: sibling
-- **nisalesu**: only child
-- **todoci**: friend/ally
+- **nisaresu**: only child
+- **nari**: friend/ally
 
 ---
 ### Cognitive Entities
@@ -133,7 +135,7 @@
 - **kora**: sadness
 - **pona**: goodness
 - **rike:** badness
-- **loba**: love
+- **roba**: love
 ### Linguistic Entities
 - **toki**: language
 - **tokiba**: conversation
@@ -147,33 +149,27 @@
 ##### Hues
 - **roasa**: red
 - **roage**: orange
-- **mailo**: yellow
+- **mairo**: yellow
 - **gaeso**: green
 - **saina**: cyan
-- **boule**: blue
+- **boure**: blue
 - **poupa**: purple
 ##### Values
 - **neoto**: black
 - **gaiso**: grey 
 - **guari**: white 
-###### Saturations
-- **sature**: saturation 
-- **pokako**: unsaturated
 #### Comparative
 - **pefo**: perfect 
 - **sama**: similar 
-- **lesu**: less 
-- **mosa**: more 
 - **tara**: different/other
 - **kumo**: common
 #### Magnitudes
-- **lauka**: lack of something
 - **moune**: amount
 - **sisa**: size
 - **muito**: abundance
-- **leuso**: lack
+- **reuso**: lack
 - **biga**: big
-- **mala**: small
+- **nano**: small
 - **soku**: velocity
 - **sofore**: fast
 - **sobare**: slow
@@ -184,6 +180,12 @@
 - **sareto**: secret 
 - **noreto**: non-secret 
 - **maigo**: magic 
+#### Social
+- **mime**: baby
+- **coko**: yong / kid
+- **mena**: teen
+- **dure**: adult
+- **gama**: elderly
 
 ---
 ### Process Entities
@@ -191,10 +193,12 @@
 - **sate**: being
 - **sesu**: state
 #### Actions
+- **fase**: act, to do, as in "acts committed by you"
 - **gone**: movement of the subject to other location
+- **cusa**: usage 
 - **mobe**: movement of a object by the subject 
 - **kore**: running
-- **ruku**: walking
+- **ruku**: walking, a walk
 - **fosu:** fix
 - **kone**: returning
 - **turi**: changing/change
@@ -203,28 +207,30 @@
 - **dabure**: silence. Silence as a state 
 - **guoka**: work
 - **goke**: joke. Joke as an event
-- **loki**: look. Look as the act of looking
+- **roki**: look. Look as the act of looking
 - **pone**: something placed
 - **take**: something took
 - **kareto**: creation. Creation as a process
 - **done:** gift
-- **telo**: a said 
+- **tero**: a said 
 - **kuta:** song 
-- **fila**: feeling
+- **fira**: feeling
 - **gaca**: understanding
 - **sapa**: sleep
 - **paiko**: play, execution,  
-- **luka**: look, how something looks like. Appearance. 
+- **ruka**: look, how something looks like. Appearance. 
 - **buita**: buy
-- **sele**: sell
+- **sere**: sell
 - **case**: chase, hunt 
+- **tobu**: fly
+- **tuni**: training or the process of making something better
 ---
 ### Abstract Entities
 - **kosa**: unknown thing
-- **reale**: reality
+- **reare**: reality
 - **teno**: possession
 - **raeso**: reason
-- **rala**: relation
+- **rara**: relation
 - **cifo**: information
 - **komo**: the how to do something 
 - **readi**: ready
@@ -240,11 +246,11 @@
 ---
 ### Grammatical entities
 #### Auxiliary verbs
-- **ni kea**: voice modifier: invert the subject with the indirect object, and the object with the subject
-- **ni toa**: voice modifier: invert the subject with the direct object, and the object with the subject
+- **ni kea**: voice modifier: invert the subject with the direct object, and the direct object with the subject
+- **ni toa**: voice modifier: invert the subject with the indirect object, and the direct object with the subject
 ---
 ### Numbers
-- **nona**: 0
+- **none**: 0
 - **noe**: 1
 - **doe**: 2
 - **toe**: 3
@@ -262,43 +268,41 @@
 - **tana**: 1000000
 ---
 ## Particles
-### booleans
+- **ko**: refer to verb particle
+### Global Role
+- **ga**: subject specifier (you can omit this if the first noun of the sentence is the subject)
+- **ke**: direct object specifier.
+- **to**: indirect object specifier
+### Mood 
+- **ni**: converts a noun into a verb, turn the sentence into indicative mood
+- **ka**:  convert a noun into a verb, turn the sentence into interrogative mood
+- **kio**: convert a noun into a verb, turn the sentence into imperative mood
+### Booleans
 - **si**: affirmation, yes
 - **no**: negation, no, not
----
-### Pronouns
-- **mi**: first person pronoun
-- **tu**: second person pronoun
-- **le**: third person pronoun 
-- **ti**: "it". Used for unknown things or in substitution of something already mentioned 
-#### Possessive
-- **mia:**  first person  
-- **tua:** second person 
-- **lea:** third person  
-- **tia:** "ti" possessive 
+#### Interrogative placeholder
+- **kao**: used in substitution of what is being asked
+### Local Role
+- **gao**: agentic particle
+- **kao**: affected particle
+- **nio**: targeted particle
 ---
 ### Deixis
 - **tei**: this, the. Near to the speaker, also work as demonstrative of prominence
 - **dea**: near to the listener
-- **cae**: far from the speaker and the listener 
+- **ceo**: far from the speaker and the listener 
 ---
-### Noun-to-verb mood 
-- **ni**: noun-to-verb particle, mood specifier. Mood: informing
-- **ka**:  noun-to-verb particle, mood specifier. Mood: questioning 
-- **go**: noun-to-verb particle, mood specifier. Mood: commanding 
----
-### Tense 
-- **pa**: tense specifier particle: past
-- **fu**: tense specifier particle: future  
----
-### Aspect 
-- **na**: imperfect, continuous 
----
-### Sentences modifier
-- **la**: subject specifier (only if the subject is not obvious) 
-- **ke**: patient, indirect object specifier.
-- **to**: destination, direct object specifier. 
-- **ko**: relative clause closing marker 
+### Pronouns
+- **mi**: first person pronoun
+- **tu**: second person pronoun
+- **sei**: third person pronoun 
+- **ti**: "it". Used for unknown things, inanimated object
+- **dau**: make reference to a event or context mentioned
+#### Possessive
+- **mia:**  first person  
+- **tua:** second person 
+- **seo:** third person  
+- **tia:** "ti" possessive 
 ---
 ### Conjunctions
 - **pia**: generic relationship
@@ -314,7 +318,7 @@
 - **poi**: a little bit of
 - **mae**: more / the most 
 - **pae**: less 
-- **kae**: equal
+- **kai**: equal
 - **di**: than 
 ---
 ### Prepositions
@@ -325,6 +329,7 @@
 - **te**: A is being used by B
 #### Position
 - **ne**: A in the position of B. This can be context, physical, or time position
+- **gu**: A when/in/at B in time context 
 - **nu**: A inside B
 - **su**: A outside B
 - **ru**: A above B 
@@ -335,17 +340,17 @@
 - **ku**: A is as long as B. B define the duration/size/long of A 
 - **be**: A after B 
 #### Direction
-- **ki**: A goes toward B 
+- **to**: A goes toward B 
 - **de**: A originates from B
-- **mu**: A moves through/across B 
+- **tui**: A moves through/across B 
 #### Composition 
 - **do**: A is part of B / A is made of B / B is composed of A 
-- **ga**:  A is with B 
+- **go**:  A is with B 
 - **du**: A is possessed by B / B have A 
-- **su**: A possesses B
+- **nou**: A possesses B
 - **fa**: A is about B 
 - **sa**: A taking the role of B 
-- **se** A: is like/similar to B
+- **siu** A: is like/similar to B
 #### Cause and effect/Time relations
-- **ra**: A for/because B. The reason of A is B 
-- **gu**: A when/in B in time context (if you want to specify in time context)
+- **pa**: A for/to/because B. The reason of A is B 
+- **ra**: A for which B is. The reason of B is A 

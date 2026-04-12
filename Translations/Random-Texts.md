@@ -1,9 +1,9 @@
 # Random Texts
 ---
 
-My friends work at night. Sometimes they don't want to eat, but they always drink water. If the cook arrives early, then everyone is happy because they can rest. I ask who is singing, and my dog runs to the door.
+My friends work at night. Sometimes they don't want to eat, but they always drink water. If the cook arrives early, then everyone is happy because they can rest. 
 
-sai todoci mio ni guoka ne noite. nani daite, sai le no ni guane ni kome; ma, masa cika, sai le ni kome ke guare. fi, Kome ni kini cikae; so, sai le copi; bo, sai le ni pomo ni mate. Mi ni kati pa ke kosa ka keca ni kuta to ko; ta, kanao mio ni kore ki getera.
+sai rali mio ni guoka ne noite. nani daite, sai le no guane ni kome; ma, masa cika, sai le ni kome ke guare. fi, Kome ni kini cikae; so, sai le copi; bo, sai le ni pomo ni mate.
 
 ---
 > Tu ni fila fu sa noe ke cae kosa
@@ -33,10 +33,10 @@ sai todoci mio ni guoka ne noite. nani daite, sai le no ni guane ni kome; ma, ma
 - to kasaca -> in`direct object destination: house/home
 
 ---
-> "Nisa. Tei pase muito cirudo. fi, Tu ni pone ke koputa pora to soma pase; so, Nona kano ni take." 
+> "Nisa. Tei pase muito cirudo. fi, Tu ni pone ke koputa pora to soma; so, sai kano no take." 
 > "Bro, this place is very safe. If you put a phone in any place, nobody gonna take it"
 
-- Nisa -> The target of the phrase, the person being talking to: Sibling
+- Nisa -> The target of the phrase, the person being talking to: Sibling, Bro
 - Tei pase -> This place
 - muito cirudo -> Used as adjective of a nominal sentence: "very secure"
 
@@ -44,21 +44,22 @@ sai todoci mio ni guoka ne noite. nani daite, sai le no ni guane ni kome; ma, ma
 - tu -> Subject: second person
 - ni pone -> Verbal form: to place 
 - ke koputa pora -> Direct object patient: portable computer, cellphone
-- to soma pase -> Indirect object destination: any position in space, any place
+- to soma-> Indirect object destination: any position in space, any place
 
 - so -> probable effect 
-- nona kano -> Subject: a zero amount of persons, nobody
-- ni take -> Verbal form: to take 
+- sai kano -> Subject: a plural amount of person
+- no take -> Verbal form: negation of "to take" 
 
 ---
-> "daifore, Kano mae sofare du sai tu ni bosa ni kore fu ra noe cito. go readi fu. Suere pona"
+> "daifore, la Kano mae sofare du sai tu ni bosa ni kore ra noe kao cito. go readi. Suere pona"
 > "Tomorrow, the faster of you will have to run for the first place. Be ready, good luck"
 
 - daifore -> tomorrow
 - kano -> human
 - mae sofare -> more faster / faster
 - du sai tu -> of yall
-- ni bosa ni kore fu -> will have to run 
-- ra noe cito -> because of the one position / for the first place
-- go readi fu -> be ready 
+- ni bosa ni kore -> have to run 
+- ra noe kao cito -> because of the one position / for the first place
+- go readi -> be ready 
 - suere pona -> good luck
+---
