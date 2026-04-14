@@ -98,8 +98,7 @@
 - **toeto**: 1/3
 - **foeto**: 1/4
 - **caeto**: 1/8
-#### Plurals 
-- **sai**: generic plural. More than one
+
 ---
 ### Natural Entities
 #### Organisms
@@ -167,12 +166,12 @@
 - **moune**: amount
 - **sisa**: size
 - **muito**: abundance
-- **reuso**: lack
+- **reso**: lack
 - **biga**: big
 - **nano**: small
 - **soku**: velocity
-- **sofore**: fast
-- **sobare**: slow
+- **sofo**: fast
+- **soba**: slow
 - **fakua**: frequency
 #### Usability 
 - **kasa**: consistent, something that doesn't change 
@@ -244,65 +243,47 @@
 - **pomo**: permission
 - **pasa**: posibility 
 ---
-### Grammatical entities
-#### Auxiliary verbs
-- **ni kea**: voice modifier: invert the subject with the direct object, and the direct object with the subject
-- **ni toa**: voice modifier: invert the subject with the indirect object, and the direct object with the subject
----
-### Numbers
-- **none**: 0
-- **noe**: 1
-- **doe**: 2
-- **toe**: 3
-- **foe**: 4
-- **koe**: 5
-- **sae**: 6
-- **tae**: 7
-- **cae**: 8
-- **roe**: 9
-- **sana**: 10
-- **kana**: 100
-- **rana**: 1000
-- **gana**: 10000
-- **dana**: 100000
-- **tana**: 1000000
----
 ## Particles
-- **ko**: refer to verb particle
 ### Global Role
 - **ga**: subject specifier (you can omit this if the first noun of the sentence is the subject)
 - **ke**: direct object specifier.
 - **to**: indirect object specifier
-### Mood 
-- **ni**: converts a noun into a verb, turn the sentence into indicative mood
-- **ka**:  convert a noun into a verb, turn the sentence into interrogative mood
-- **kio**: convert a noun into a verb, turn the sentence into imperative mood
 ### Booleans
 - **si**: affirmation, yes
 - **no**: negation, no, not
-#### Interrogative placeholder
-- **kao**: used in substitution of what is being asked
+### Interrogative mood
+- **ka**:  turn a sentence into a yes or not question, can be placed everywhere in the sentence. If placed after the verb, it substitute "ni"
+- **kao**: turn a sentence into a complete response question. Used in substitution of what is being asked. No needed for "ka" if you use "kao".
 ### Local Role
-- **gao**: agentic particle
-- **kao**: affected particle
-- **nio**: targeted particle
+- **gao**: agentic of the noun converted into verb 
+- **kao**: affected by noun converted into verb 
+- **rio**: target of the noun converted into verb 
 ---
 ### Deixis
 - **tei**: this, the. Near to the speaker, also work as demonstrative of prominence
 - **dea**: near to the listener
 - **ceo**: far from the speaker and the listener 
+### Plurals 
+- **sai**: generic plural. More than one
+- **cou**: singular. In case you want to specify something is a single object
 ---
 ### Pronouns
 - **mi**: first person pronoun
 - **tu**: second person pronoun
-- **sei**: third person pronoun 
-- **ti**: "it". Used for unknown things, inanimated object
-- **dau**: make reference to a event or context mentioned
-#### Possessive
-- **mia:**  first person  
-- **tua:** second person 
-- **seo:** third person  
-- **tia:** "ti" possessive 
+- **riu**: third person pronoun 
+- **ti**: "it". Used for unknown things, object, event or entities. Don't recommended to use it in humands (use "riu" in this case)
+
+---
+### Verb
+#### Mood 
+- **ni**: converts a noun into a verb, turn the sentence into indicative mood
+- **kio**: convert a noun into a verb, turn the sentence into imperative mood
+- **ko**: Put it everywhere in the sentence, it will work as a noun, everything after it will refer to the verb. If you use "ga" to indicate subject, "ko" is implicit at the beginning of the sentence
+#### Auxiliary verbs
+- **kea**: voice modifier: invert the subject with the direct object, and the direct object with the subject
+- **toa**: voice modifier: invert the subject with the indirect object, and the direct object with the subject. Put it between "ni" (or substitute) and the verb.
+#### Nominalization
+- **nio**: nominalization (a verb is used as noun). 
 ---
 ### Conjunctions
 - **pia**: generic relationship
@@ -311,11 +292,9 @@
 - **bo**: causal backward link. Effect -> cause
 - **ma**: opposition between both sentences
 - **ta**: sequential temporal link
-- **fi**: if 
+- **fi**: "if". Used in collaboration with "so" to create "if, then" statements
 ---
 ### Comparation 
-- **mui**: a lot of / very much of
-- **poi**: a little bit of
 - **mae**: more / the most 
 - **pae**: less 
 - **kai**: equal
@@ -354,3 +333,21 @@
 #### Cause and effect/Time relations
 - **pa**: A for/to/because B. The reason of A is B 
 - **ra**: A for which B is. The reason of B is A 
+---
+### Numbers
+- **noe**: 1
+- **doe**: 2
+- **toe**: 3
+- **foe**: 4
+- **koe**: 5
+- **sae**: 6
+- **tae**: 7
+- **cae**: 8
+- **roe**: 9
+- **none**: 0
+- **sana**: 10
+- **kana**: 100
+- **rana**: 1000
+- **gana**: 10000
+- **dana**: 100000
+- **tana**: 1000000
