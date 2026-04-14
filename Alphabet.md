@@ -10,7 +10,7 @@ Vowels are the 5 neutral vowels.
 - u
 ---
 ## Diphthongs 
-All vowels can be followed by a different vowel, only two vowels can be at the core of a syllable. 
+All vowels can be followed by a different vowel. Only two vowels can be at the core of a syllable. 
 
 ---
 ## Consonants (13)
