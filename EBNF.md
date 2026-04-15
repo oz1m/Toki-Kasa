@@ -19,7 +19,7 @@ movable_element = explicit_subject | direct_object | indirect_object | verbal_re
 implicit_subject = noun_phrase;          (* only valid if it is the first nominal element after the conjunction *)
 explicit_subject = "ga", noun_phrase;
 
-verbal_form = mood_particle, voice_modifier, noun, [local_clause];
+verbal_form = mood_particle, voice_modifier, root, [local_clause];
 
 direct_object  = "ke", noun_phrase;
 indirect_object = "to", noun_phrase;
@@ -34,29 +34,36 @@ interrogative_particle = "" | "ka";
 
 end_punctuation = "." | ";";
 
-(* === Noun phrase (full nominal with modifiers) === *)
-noun_phrase = noun_form [local_clause];
+(* === Noun phrase === *)
+local_clause = noun { description };
 
-(* === Local modifiers (adjectives and prepositions) === *)
-local_clause = modifier { "da" modifier };   (* "da" resets the chain to the original head noun *)
+(* === Elements in the chain === *)
+description = adjective 
+        | prepositional_phrase
+        | "da";
 
-modifier = adjective | preposition_form;
-
-preposition_form = preposition, noun_phrase;   (* recursive: each preposition modifies only the noun phrase immediately following it *)
-
-adjective = noun | (comparation noun "di" noun);
+(* === Adjectives === *)
+adjective = root 
+          | (comparation root "di" local_clause);
 
 comparation = "mae" | "pae" | "kai";
 
+(* === Prepositions === *)
+prepositional_phrase = preposition, noun;
+
 (* === Basic nominal structure === *)
-noun_form = [pointer], [number], [role] noun;
+noun = modified_nominal | pronoun;
+
+modified_nominal = [pointer], [number], [role], (root | interrogative);
 
 pointer = "tei" | "dea" | "ceo";
 number  = count | "sai" | "cou";
 role    = "gao" | "kao" | "rio" | "nia";
 
-(* === Lexical categories (defined in the dictionary) === *)
-noun        = "kao" | (* any base noun from the dictionary *);
+interrogative = "kao";
+pronoun = "mi" | "tu" | "riu" | "ti";
+
+root = (* any base root from the dictionary *);
 preposition = (* any preposition from the dictionary *);
 count       = /* any number from the dictionary (noe, doe, toe, …) */;
 ```
