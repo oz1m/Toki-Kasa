@@ -55,12 +55,13 @@ noun = modified_nominal | pronoun;
 
 modified_nominal = [pointer], [number], [role], (root | interrogative_placeholder);
 
+pronoun = [number], ("mi" | "tu" | "riu" | "ti");
+
 pointer = "tei" | "dea" | "cae";
 number  = count | "sai" | "coi";
 role    = "gao" | "kao" | "tou" | "nia";
 
 interrogative_placeholder = "kai";
-pronoun = "mi" | "tu" | "riu" | "ti";
 
 root = (* any base root from the dictionary *);
 preposition = (* any preposition from the dictionary *);
