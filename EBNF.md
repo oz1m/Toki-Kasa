@@ -11,18 +11,17 @@ sentence = [conjunction_part],
            end_punctuation;
 
 conjunction_part = "" | (conjunction ",");
-conjunction = "pi" | "ro" | "so" | "bo" | "ma" | "ta" | "fi";
+conjunction = "pai" | "roi" | "soi" | "boi" | "mai" | "tai" | "fai";
 
 (* === Movable elements (any order, as long as their marker is used) === *)
 movable_element = explicit_subject | direct_object | indirect_object | verbal_reference;
 
 implicit_subject = noun_phrase;          (* only valid if it is the first nominal element after the conjunction *)
 explicit_subject = "ga", noun_phrase;
-
-verbal_form = mood_particle, voice_modifier, root, [local_clause];
-
 direct_object  = "ke", noun_phrase;
 indirect_object = "to", noun_phrase;
+
+verbal_form = mood_particle, voice_modifier, root, [local_clause];
 
 verbal_reference = "ko", local_clause;   (* everything after "ko" describes the verbal form of the sentence *)
 
@@ -46,7 +45,7 @@ description = adjective
 adjective = root 
           | (comparation root "di" local_clause);
 
-comparation = "mae" | "pae" | "kai";
+comparation = "mae" | "pae" | "tae" | "mao" | "pao" | "tao";
 
 (* === Prepositions === *)
 prepositional_phrase = preposition, noun;
@@ -54,13 +53,13 @@ prepositional_phrase = preposition, noun;
 (* === Basic nominal structure === *)
 noun = modified_nominal | pronoun;
 
-modified_nominal = [pointer], [number], [role], (root | interrogative);
+modified_nominal = [pointer], [number], [role], (root | interrogative_placeholder);
 
-pointer = "tei" | "dea" | "ceo";
-number  = count | "sai" | "cou";
-role    = "gao" | "kao" | "rio" | "nia";
+pointer = "tei" | "dea" | "cae";
+number  = count | "sai" | "coi";
+role    = "gao" | "kao" | "tou" | "nia";
 
-interrogative = "kao";
+interrogative_placeholder = "kai";
 pronoun = "mi" | "tu" | "riu" | "ti";
 
 root = (* any base root from the dictionary *);

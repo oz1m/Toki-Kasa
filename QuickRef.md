@@ -244,110 +244,111 @@
 - **pasa**: posibility 
 ---
 ## Particles
-### Global Role
+### Sentences
+#### Conjunctions
+**pai**: generic relationship
+**roi**: election relationship
+**soi**: causal forward link. Cause -> effect
+**boi**: causal backward link. Effect -> cause
+**mai**: opposition between both sentences
+**tai**: sequential temporal link
+**fai**: "if". Used in collaboration with "so" to create "if, then" statements
+
+#### Global Role
 - **ga**: subject specifier (you can omit this if the first noun of the sentence is the subject)
 - **ke**: direct object specifier.
 - **to**: indirect object specifier
-### Booleans
+#### Booleans
 - **si**: affirmation, yes
 - **no**: negation, no, not
-### Interrogative mood
-- **ka**:  turn a sentence into a yes or not question, can be placed everywhere in the sentence. If placed after the verb, it substitute "ni"
-- **kao**: turn a sentence into a complete response question. Used in substitution of what is being asked. No needed for "ka" if you use "kao".
-### Local Role
-- **gao**: agentic of the noun converted into verb 
-- **kao**: affected by noun converted into verb 
-- **rio**: target of the noun converted into verb 
+----
+### Verbs
+- **ko**: Put it everywhere in the sentence, it will work as a noun, everything after it will refer to the verbal form of the sentence.
+#### Mood 
+- **ni**: converts a noun into a verb, turn the sentence into indicative mood
+- **nio**: converts a noun into a verb, turn the sentence into indicative mood, indicate negation of the verb
+- **ki**: convert a noun into a verb, turn the sentence into imperative mood
+- **kio**: convert a noun into a verb, turn the sentence into imperative mood, indicate negation of the verb
+- **ka**:  Can be placed everywhere in the sentence, turn a sentence into a "yes" or "not" question.
+#### Voice modifier
+- **kea**: voice modifier: invert the subject with the direct object, and the direct object with the subject
+- **toa**: voice modifier: invert the subject with the indirect object, and the direct object with the subject. 
 ---
-### Deixis
-- **tei**: this, the. Near to the speaker, also work as demonstrative of prominence
-- **dea**: near to the listener
-- **ceo**: far from the speaker and the listener 
-### Plurals 
-- **sai**: generic plural. More than one
-- **cou**: singular. In case you want to specify something is a single object
----
-### Pronouns
+### Noun Composers
+#### Pronouns
 - **mi**: first person pronoun
 - **tu**: second person pronoun
 - **riu**: third person pronoun 
-- **ti**: "it". Used for unknown things, object, event or entities. Don't recommended to use it in humands (use "riu" in this case)
-
----
-### Verb
-#### Mood 
-- **ni**: converts a noun into a verb, turn the sentence into indicative mood
-- **kio**: convert a noun into a verb, turn the sentence into imperative mood
-- **ko**: Put it everywhere in the sentence, it will work as a noun, everything after it will refer to the verb. If you use "ga" to indicate subject, "ko" is implicit at the beginning of the sentence
-#### Auxiliary verbs
-- **kea**: voice modifier: invert the subject with the direct object, and the direct object with the subject
-- **toa**: voice modifier: invert the subject with the indirect object, and the direct object with the subject. Put it between "ni" (or substitute) and the verb.
-#### Nominalization
-- **nio**: nominalization (a verb is used as noun). 
----
-### Conjunctions
-- **pia**: generic relationship
-- **ro**: election relationship 
-- **so**: causal forward link. Cause -> effect 
-- **bo**: causal backward link. Effect -> cause
-- **ma**: opposition between both sentences
-- **ta**: sequential temporal link
-- **fi**: "if". Used in collaboration with "so" to create "if, then" statements
----
-### Comparation 
-- **mae**: more / the most 
-- **pae**: less 
-- **kai**: equal
-- **di**: than 
----
-### Prepositions
-- **da**: chain reset particle
-#### Agent
-- **bi**: A is made by B. B did A 
-- **ge**: A is using/wearing B 
-- **te**: A is being used by B
-#### Position
-- **ne**: A in the position of B. This can be context, physical, or time position
-- **gu**: A when/in/at B in time context 
-- **nu**: A inside B
-- **su**: A outside B
-- **ru**: A above B 
-- **re**: A below B
-- **ba**: A back/at the end of B 
-- **fo**: A in front/at the beginning  of B
-- **ci**: A next to/around B
-- **ku**: A is as long as B. B define the duration/size/long of A 
-- **be**: A after B 
-#### Direction
-- **to**: A goes toward B 
-- **de**: A originates from B
-- **tui**: A moves through/across B 
-#### Composition 
-- **do**: A is part of B / A is made of B / B is composed of A 
-- **go**:  A is with B 
-- **du**: A is possessed by B / B have A 
-- **nou**: A possesses B
-- **fa**: A is about B 
-- **sa**: A taking the role of B 
-- **siu** A: is like/similar to B
-#### Cause and effect/Time relations
-- **pa**: A for/to/because B. The reason of A is B 
-- **ra**: A for which B is. The reason of B is A 
----
-### Numbers
+- **ti**: "it". Used for unknown things, object, event or entities. Don't recommended to use it in humans (use "riu" in this case)
+#### Interrogative particle
+- **kai**: turn a sentence into a complete response question. Used in substitution of what is being asked. No needed for "ka" if you use "kai".
+#### Local Role
+- **gau**: agentic of the noun converted into verb 
+- **keu**: affected by noun converted into verb 
+- **tou**: target of the noun converted into verb 
+- **nia**: nominalization (a verb is used as noun). 
+#### Pointer
+- **tei**: this, the. Near to the speaker, also work as demonstrative of prominence
+- **dea**: near to the listener
+- **cae**: far from the speaker and the listener 
+#### Number 
+##### Plural
+- **sai**: generic plural. More than one
+- **coi**: singular. In case you want to specify something is a single object
+##### Numbers
 - **noe**: 1
 - **doe**: 2
 - **toe**: 3
 - **foe**: 4
 - **koe**: 5
-- **sae**: 6
-- **tae**: 7
-- **cae**: 8
-- **roe**: 9
-- **none**: 0
+- **seo**: 6
+- **teo**: 7
+- **ceo**: 8
+- **reo**: 9
+- **nane**: 0
 - **sana**: 10
 - **kana**: 100
 - **rana**: 1000
 - **gana**: 10000
 - **dana**: 100000
 - **tana**: 1000000
+
+---
+### Comparation 
+- **mae**: more / the most 
+- **mao**: negation of "mae"
+- **pae**: less 
+- **pao**: negation of "pae"
+- **tae**: equal
+- **tao**: negation of "tae"
+- **di**: "than"
+---
+### Prepositions
+- **da**: chain reset particle
+#### Composition 
+Put a "o" at the end of every preposition to negate it (ex. "deo")
+- **de**: A is possessed by/makes up/compose/is part of B
+- **nu**: A possesses/is the whole of/made of/about B
+- **bi**: A is made by B
+- **cu**: A did B
+- **ca**:  A is with B 
+- **sa**: A like/similar/taking the role of B 
+- **ge**: A is using/wearing/equipped with B 
+- **su**: A is being used/wears/equips by B
+#### Position
+- **ne**: A in the position/inside of B. This can be context or physical
+- **gu**: A when/in/at B in time context 
+- **su**: A outside B
+- **ru**: A above B 
+- **be**: A below B
+- **ba**: A back/previous of B 
+- **fu**: A in front/after  of B
+- **ci**: A next to/around B
+- **ku**: A is as long as B. B define the duration/size/long of A 
+#### Direction
+- **fe**: A goes toward B 
+- **ru**: A originates from B
+- **ri**: A moves through/across B 
+#### Cause and effect
+- **du**: A for/to/because/is caused by B
+- **ra**: A for which B is. The reason of B is A 
