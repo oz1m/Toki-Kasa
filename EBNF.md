@@ -63,8 +63,39 @@ role    = "gao" | "kao" | "tou" | "nia";
 
 interrogative_placeholder = "kai";
 
+count =
+    [ million ],
+    [ hundred_thousand ],
+    [ ten_thousand ],
+    [ thousand ],
+    [ hundred ],
+    [ ten ],
+    [ unit ] ;
+
+million         = [ digit ] , "tana";
+hundred_thousand= [ digit ] , "dana";
+ten_thousand    = [ digit ] , "gana";
+thousand        = [ digit ] , "rana";
+hundred         = [ digit ] , "kana";
+ten             = [ digit ] , "sana";
+
+unit            = digit ;
+
+digit       = "noe" | "doe" | "toe" | "foe" | "koe"
+            | "seo" | "teo" | "ceo" | "reo";
+
+zero        = "nane" ;
+
+preposition = base_preposition | negated_preposition ;
+
+negated_preposition = base_preposition , "o" ;
+
+base_preposition =
+	  "de" | "nu" | "bi" | "cu" | "ca" | "sa" | "ge" | "pu"
+    | "ne" | "gu" | "su" | "ru" | "be" | "ba" | "fu" | "ci" | "ku"
+    | "fe" | "fa" | "ri"
+    | "du" | "ra" ;
+
 root = (* any base root from the dictionary *);
-preposition = (* any preposition from the dictionary *);
-count       = /* any number from the dictionary (noe, doe, toe, …) */;
 ```
 
