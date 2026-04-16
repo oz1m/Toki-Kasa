@@ -334,7 +334,7 @@ Put a "o" at the end of every preposition to negate it (ex. "deo")
 - **ca**:  A is with B 
 - **sa**: A like/similar/taking the role of B 
 - **ge**: A is using/wearing/equipped with B 
-- **su**: A is being used/wears/equips by B
+- **pu**: A is being used/wears/equips by B
 #### Position
 - **ne**: A in the position/inside of B. This can be context or physical
 - **gu**: A when/in/at B in time context 
@@ -347,7 +347,7 @@ Put a "o" at the end of every preposition to negate it (ex. "deo")
 - **ku**: A is as long as B. B define the duration/size/long of A 
 #### Direction
 - **fe**: A goes toward B 
-- **ru**: A originates from B
+- **fa**: A originates from B
 - **ri**: A moves through/across B 
 #### Cause and effect
 - **du**: A for/to/because/is caused by B
