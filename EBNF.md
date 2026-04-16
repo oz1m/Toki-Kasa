@@ -23,7 +23,7 @@ indirect_object = "to", noun_phrase;
 
 verbal_form = mood_particle, voice_modifier, root, [local_clause];
 
-verbal_reference = "ko", local_clause;   (* everything after "ko" describes the verbal form of the sentence *)
+verbal_reference = "ko", description;   (* everything after "ko" describes the verbal form of the sentence *)
 
 mood_particle = "ni" | "nio" | "ki" | "kio";
 voice_modifier = "" | "kea" | "toa";
@@ -39,11 +39,12 @@ local_clause = noun { description };
 (* === Elements in the chain === *)
 description = adjective 
         | prepositional_phrase
+		| (comparation "di" local_clause) 
         | "da";
 
 (* === Adjectives === *)
 adjective = root 
-          | (comparation root "di" local_clause);
+          | ( root comparation "di" local_clause);
 
 comparation = "mae" | "pae" | "tae" | "mao" | "pao" | "tao";
 
