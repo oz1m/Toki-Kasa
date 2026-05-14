@@ -34,27 +34,28 @@ interrogative_particle = "" | "ka";
 end_punctuation = "." | ";";
 
 (* === Noun phrase === *)
-local_clause = noun { description };
+local_clause = nominal { description };
 
 (* === Elements in the chain === *)
 description = adjective 
         | prepositional_phrase
-		| (comparation "di" local_clause) 
+		| (comparison "di" local_clause) 
         | "da";
 
 (* === Adjectives === *)
 adjective = root 
-          | ( root comparation "di" local_clause);
+		  | interrogative_placeholder 
+          | (  comparation root "di" local_clause);
 
 comparation = "mae" | "pae" | "tae" | "mao" | "pao" | "tao";
 
 (* === Prepositions === *)
 prepositional_phrase = preposition, noun;
 
-(* === Basic nominal structure === *)
-noun = modified_nominal | pronoun;
+(* === Basic noun structure === *)
+nominal = modified_root | pronoun;
 
-modified_nominal = [pointer], [number], [role], (root | interrogative_placeholder);
+modified_root = [pointer], [number], [role], (root | interrogative_placeholder);
 
 pronoun = [number], ("mi" | "tu" | "riu" | "ti");
 
